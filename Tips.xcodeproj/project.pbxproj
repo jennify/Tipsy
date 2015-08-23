@@ -13,6 +13,9 @@
 		7A4C8E081B7488C900D0437C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A4C8E071B7488C900D0437C /* Images.xcassets */; };
 		7A4C8E0B1B7488C900D0437C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A4C8E091B7488C900D0437C /* LaunchScreen.xib */; };
 		7A4C8E171B7488C900D0437C /* TipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4C8E161B7488C900D0437C /* TipsTests.swift */; };
+		7AB04AD11B897A940017DB8C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB04AD01B897A940017DB8C /* Constants.swift */; };
+		7AB04AD51B898BB00017DB8C /* martini2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7AB04AD41B898BB00017DB8C /* martini2.jpeg */; };
+		7ADDAF991B75DE65009D83B2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADDAF981B75DE65009D83B2 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		7A4C8E101B7488C900D0437C /* TipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A4C8E151B7488C900D0437C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A4C8E161B7488C900D0437C /* TipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsTests.swift; sourceTree = "<group>"; };
+		7AB04AD01B897A940017DB8C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7AB04AD41B898BB00017DB8C /* martini2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = martini2.jpeg; sourceTree = "<group>"; };
+		7ADDAF981B75DE65009D83B2 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +84,11 @@
 			isa = PBXGroup;
 			children = (
 				7A4C8E001B7488C800D0437C /* AppDelegate.swift */,
-				7A4C8E021B7488C800D0437C /* ViewController.swift */,
+				7AB04AD01B897A940017DB8C /* Constants.swift */,
+				7ADDAF971B75DE12009D83B2 /* ViewControllers */,
 				7A4C8E041B7488C800D0437C /* Main.storyboard */,
 				7A4C8E071B7488C900D0437C /* Images.xcassets */,
+				7AB04AD41B898BB00017DB8C /* martini2.jpeg */,
 				7A4C8E091B7488C900D0437C /* LaunchScreen.xib */,
 				7A4C8DFE1B7488C800D0437C /* Supporting Files */,
 			);
@@ -110,6 +118,15 @@
 				7A4C8E151B7488C900D0437C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7ADDAF971B75DE12009D83B2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7A4C8E021B7488C800D0437C /* ViewController.swift */,
+				7ADDAF981B75DE65009D83B2 /* SettingsViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +212,7 @@
 				7A4C8E061B7488C800D0437C /* Main.storyboard in Resources */,
 				7A4C8E0B1B7488C900D0437C /* LaunchScreen.xib in Resources */,
 				7A4C8E081B7488C900D0437C /* Images.xcassets in Resources */,
+				7AB04AD51B898BB00017DB8C /* martini2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +232,8 @@
 			files = (
 				7A4C8E031B7488C800D0437C /* ViewController.swift in Sources */,
 				7A4C8E011B7488C800D0437C /* AppDelegate.swift in Sources */,
+				7ADDAF991B75DE65009D83B2 /* SettingsViewController.swift in Sources */,
+				7AB04AD11B897A940017DB8C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +425,7 @@
 				7A4C8E1C1B7488C900D0437C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A4C8E1D1B7488C900D0437C /* Build configuration list for PBXNativeTarget "TipsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +434,7 @@
 				7A4C8E1F1B7488C900D0437C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
